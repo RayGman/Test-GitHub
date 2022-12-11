@@ -4,8 +4,6 @@ namespace ScrollShooter
 {
     public class PlayerMover
     {
-        private PlayerView _body;
-        private InputHandler _inputHandler;
         
         private float _speed;
 
