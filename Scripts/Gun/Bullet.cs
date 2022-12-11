@@ -31,12 +31,6 @@ namespace ScrollShooter
 
         private void OnTriggerEnter(Collider other)
         {
-            if (other.TryGetComponent(out CubeView cube))
-            {
-                cube.TakeDamage(_damage);
-            }
-            
-            Destroy(gameObject);
         }
     }
 }
