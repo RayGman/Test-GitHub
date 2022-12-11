@@ -1,11 +1,7 @@
 ﻿namespace ScrollShooter
 {
     public class PlayerShooter
-    {
-        private PlayerView _body;
-        private ShootTimer _timer;
-        private BulletFactory _factory;
-        
+    {        
         private float _speed;
 
         public PlayerShooter(PlayerView body, ShootTimer timer, Bullet bullet)
