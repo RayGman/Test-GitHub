@@ -17,8 +17,7 @@ namespace ScrollShooter
 
         public void Start()
         {
-            _mover.Start(_config.MoveSpeed);
-            _shooter.Start(_config.AttackSpeed);
+
         }
     }
 }
