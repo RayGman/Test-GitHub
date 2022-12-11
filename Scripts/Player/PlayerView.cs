@@ -7,9 +7,6 @@ namespace ScrollShooter
     {
         [field: SerializeField] public Transform Barrel { get; private set; }
 
-        private PlayerConfig _config;
-        private Tween _move, _shoot;
-
         public void Init(PlayerConfig config)
         {
             _config = config;

@@ -8,7 +8,5 @@ namespace ScrollShooter
     {
         [SerializeField] public float MoveSpeed;
         [SerializeField] public float AttackSpeed;
-        [SerializeField] public float AnimationShootDurration;
-        [SerializeField] public int AnimationShootVibrato;
     }
 }
