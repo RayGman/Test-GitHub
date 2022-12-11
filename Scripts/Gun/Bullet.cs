@@ -6,11 +6,6 @@ namespace ScrollShooter
     [RequireComponent(typeof(Rigidbody))]
     public class Bullet : MonoBehaviour
     {
-        private float _speed;
-        private int _damage;
-        
-        private Rigidbody _rigidbody;
-
         private void Awake()
         {
             _rigidbody = GetComponent<Rigidbody>();

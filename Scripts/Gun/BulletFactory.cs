@@ -6,10 +6,6 @@ namespace ScrollShooter
     {
         private Bullet _bullet;
 
-        public BulletFactory(Bullet bullet)
-        {
-            _bullet = bullet;
-        }
 
         public void Create(Vector3 position)
         {
