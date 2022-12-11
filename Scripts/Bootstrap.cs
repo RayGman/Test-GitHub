@@ -10,7 +10,10 @@ namespace ScrollShooter
         [SerializeField] private PlayerConfig _playerConfig;
         [SerializeField] private Transform _playerSpawn;
         [SerializeField] private Camera _camera;
-        [SerializeField] private Bullet _bullet;
+        [SerializeField] private PlayerConfig _Config;
+        [SerializeField] private Transform _plarSpawn;
+        [SerializeField] private Camera _era;
+        [SerializeField] private Bullet _llet;
         
         private InputHandler _inputHandler;
         private ShootTimer _timer;
