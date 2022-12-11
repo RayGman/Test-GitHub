@@ -13,10 +13,6 @@
 
         public void Start(float speed)
         {
-            _speed = speed;
-
-            _timer.TimerSignal += OnTimerSignal;
-            _timer.StartTimer(_speed);
         }
 
         public void Stop()
