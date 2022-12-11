@@ -17,16 +17,6 @@ namespace ScrollShooter
 
         public void Start()
         {
-            if (_config.MoveSpeed <= 0)
-            {
-                _config.MoveSpeed = 1f;
-            }
-            
-            if (_config.AttackSpeed <= 0)
-            {
-                _config.AttackSpeed = 1f;
-            }
-            
             _mover.Start(_config.MoveSpeed);
             _shooter.Start(_config.AttackSpeed);
         }
